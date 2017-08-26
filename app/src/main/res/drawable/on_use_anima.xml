@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/on_use_um" android:duration="2000"></item>
+    <item android:drawable="@drawable/on_use_dois" android:duration="100"></item>
+    <item android:drawable="@drawable/on_use_tres" android:duration="100"></item>
+    <item android:drawable="@drawable/on_use_quatro" android:duration="100"></item>
+    <item android:drawable="@drawable/on_use_cinco" android:duration="100"></item>
+    <item android:drawable="@drawable/on_use_seis" android:duration="100"></item>
+    <item android:drawable="@drawable/on_use_sete" android:duration="100"></item>
+    <item android:drawable="@drawable/on_use_oito" android:duration="100"></item>
+    <item android:drawable="@drawable/on_use_nove" android:duration="100"></item>
+    <item android:drawable="@drawable/on_use_dez" android:duration="100"></item>
+    <item android:drawable="@drawable/on_use_onze" android:duration="100"></item>
+    <item android:drawable="@drawable/on_use_doze" android:duration="100"></item>
+    <item android:drawable="@drawable/on_use_treze" android:duration="100"></item>
+    <item android:drawable="@drawable/on_use_quatorze" android:duration="100"></item>
+    <item android:drawable="@drawable/on_use_quinze" android:duration="100"></item>
+    <item android:drawable="@drawable/on_use_desseseis" android:duration="100"></item>
+    <item android:drawable="@drawable/on_use_dezesete" android:duration="100"></item>
+</animation-list>

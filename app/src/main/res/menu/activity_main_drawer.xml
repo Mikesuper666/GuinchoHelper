@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nac_principal"
+            android:icon="@drawable/ic_home"
+            android:title="Principal" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_people"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_pagamento"
+            android:icon="@drawable/ic_action_creditcard"
+            android:title="Pagamento" />
+        <item
+            android:id="@+id/nav_postos"
+            android:icon="@drawable/ic_store"
+            android:title="Pontos Cadastrados" />
+        <item
+            android:id="@+id/nav_oficina"
+            android:icon="@drawable/ic_build"
+            android:title="Oficinas Cadastradas" />
+        <item
+            android:id="@+id/nav_promocao"
+            android:icon="@drawable/ic_grade"
+            android:title="Promoções" />
+        <item
+            android:id="@+id/nav_compartilhar"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Compartilhar" />
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Sobre" />
+    </group>
+
+</menu>

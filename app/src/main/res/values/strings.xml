@@ -1,0 +1,130 @@
+<resources>
+
+    <!-- Classe UsuarioCadastro -->
+    <string name="toast_erro_firebase">Erro no firebase: </string>
+    <string name="toast_usuario_existe">Este E-mail já foi registrado</string>
+    <string name="toast_usuario_cadastrado">Registro efetuado com sucesso</string>
+    <!-- Classe LoginActivity -->
+    <string name="menssagem_token">FindS código de confirmação de cadastro: </string>
+    <string name="menssagem_login_faltacaractere">Você deve preencher email e senha para logar!</string>
+    <string name="menssagem_sms_problema">Problema ao enviar o SMS, por favor tente novamente</string>
+    <string name="menssagem_sms_nome_incorreto">Seu nome deve conter no mínimo 4 caracteres!</string>
+    <string name="menssagem_sms_numero_incorreto">O número está incorreto ou é inválido!</string>
+    <string name="menssagem_sms_codpais_incorreto">O código do pais precisa ser preenchido!</string>
+    <string name="menssagem_sms_codestado_incorreto">O código do estado precisa ser preenchido!</string>
+    <!-- Layouts inativo_activity_login -->
+    <string name="botao_validar_layout">Validar</string>
+    <!-- Layouts inativo_activity_login -->
+    <string name="texto_validacao_layout">Você recebeu um código de validação via SMS, digite-o no campo para continuarmos</string>
+    <!-- Layouts activity_login -->
+    <string name="texto_digite_nome_layout">Digite o seu Nome</string>
+    <string name="texto_digite_email_layout">Digite o seu E-Mail</string>
+    <string name="texto_digite_senha_layout">Digite a sua senha</string>
+    <string name="texto_digite_telefone_layout">Digite seu número</string>
+    <string name="texto_digite_recado_layout">Digite seu Recado(Opcional)</string>
+    <string name="texto_Cadastre_layout">Cadastre sua conta aqui!</string>
+    <string name="botao_logar_layout">Logar</string>
+    <string name="botao_cadastrar_layout">Cadastrar</string>
+    <!-- Elementos do menu inflater -->
+    <string name="action_settings">Configurações</string>
+    <string name="action_login">Logar</string>
+    <string name="action_logout">Deslogar</string>
+    <string name="action_perfil">Perfil</string>
+    <!-- Classe ConversaActivity -->
+    <string name="progress_uploading">Carregando Imagem…</string>
+
+    <!-- Classe PerfilActivity -->
+    <string name="texto_info">Este não é seu nome de usuario para o acesso login, e poderá ser editado e visível a todos usuários FindS.</string>
+
+    <!-- Classe BitmapUtils -->
+    <string name="bitmaputils_imagem_salva">Imagem salva</string>
+    <string name="bitmaputils_erro">Erro</string>
+
+    <string name="app_name">Help Car</string>
+    <string name="login_button">Log In</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="signup_fb">Sign up with FB</string>
+    <string name="signup_gp">Sign up with G+</string>
+    <string name="signup_name">Name</string>
+    <string name="signup_lastname">Last Name</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_phone">Phone number</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_next">Next</string>
+    <string name="login_fb">Log in with FB</string>
+    <string name="login_gp">Log in with G+</string>
+    <string name="login_login">Log in</string>
+    <string name="title_section0">Home</string>
+    <string name="title_section1">Profile</string>
+    <string name="title_section2">Payment</string>
+    <string name="title_section3">Promotions</string>
+    <string name="title_section4">Share</string>
+    <string name="title_section5">Support</string>
+    <string name="title_section6">About</string>
+    <string name="home_pickup_title">Select pick up location</string>
+    <string name="request_uber">Request Uber</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="profile_account_title">Account</string>
+    <string name="profile_account_places">Places</string>
+    <string name="profile_account_home">Add Home</string>
+    <string name="profile_account_work">Add Work</string>
+    <string name="profile_logOut">Log Out</string>
+    <string name="remove_home_button">Remove Home</string>
+    <string name="remove_work_button">Remove Work</string>
+    <string name="promotion_code_hint">Enter promotion code</string>
+    <string name="promotion_button_apply">Apply</string>
+    <string name="share_googleplus">Share on G+</string>
+    <string name="share_fb">Share on Facebook</string>
+    <string name="share_wa">Share on Whatsapp</string>
+    <string name="share_twitter">Share on Twitter</string>
+    <string name="share_title"><b>Share on your social media</b></string>
+    <string name="payment_title">Your cards</string>
+    <string name="payment_share">Earn free rides by refering friends <br>Code: </br></string>
+    <string name="addPayment_credit_card_hint">Credit Card Number</string>
+    <string name="adicionar_cartao">ADICIONAR NOVO CARTÃO</string>
+    <string name="addPayment_country_prompt">Choose your country</string>
+    <string name="registerPayment_postalCode">Postal code</string>
+    <string name="registerPayment_registerCard">Register card</string>
+    <string name="facebook_app_id">396977273804909</string>
+    <string name="ip">http://192.168.1.76:8000/</string>
+
+    <string-array name="casatro_pais">
+        <item>Brasil</item>
+        <item>Argentina</item>
+        <item>Mexico</item>
+        <item>United States</item>
+        <item>Canada</item>
+        <item>Spain</item>
+        <item>Germany</item>
+        <item>France</item>
+        <item>United Kingdom</item>
+        <item>Portugal</item>
+        <item>China</item>
+        <item>Japan</item>
+        <item>Russia</item>
+    </string-array>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_initial">InitialActivity</string>
+    <string name="title_activity_ride_details">RideDetailsActivity</string>
+
+    <string name="origin_label">You went from </string>
+    <string name="destination_label">to </string>
+    <string name="time_label">The ride took </string>
+    <string name="distance_label">You traveled </string>
+    <string name="fee_label">Your fee was </string>
+    <string name="final_fee_label">Adjusted fee was </string>
+    <string name="rating_label">Please rate your driver</string>
+    <string name="accept_ride_details_button">Accept</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="route_distance">Distance</string>
+    <string name="route_distance_value">40.2 Km</string>
+    <string name="route_duration">Duration</string>
+    <string name="route_duration_value">48 mins</string>
+    <string name="server_error">Server error. Something when wrong with the server</string>
+</resources>

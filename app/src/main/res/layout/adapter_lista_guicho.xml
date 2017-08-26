@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Endereço: "
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/txtGuinhoEndereco"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Valor da viagem: "
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/txtGuinhoPagamento"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:maxLength="5"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorPrimaryBackGround">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Distância Km: "
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/txtGuinchoDistancia"
+            android:text="0000"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Tempo Estimado: "
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/txtGuinchoTempo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:maxLength="5"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+
+</LinearLayout>

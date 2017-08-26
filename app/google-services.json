@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "268621152768",
+    "firebase_url": "https://guinchohelper-a66b9.firebaseio.com",
+    "project_id": "guinchohelper-a66b9",
+    "storage_bucket": "guinchohelper-a66b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268621152768:android:5fe2ccc136092eba",
+        "android_client_info": {
+          "package_name": "onuse.com.br.ghinchohelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268621152768-g4mqfrpgvn555e7p941f6r7l8gg0life.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWmSc2eGN7FgApsxUkLNIT3GgrvxVS0nc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
